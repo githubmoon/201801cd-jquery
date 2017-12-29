@@ -1,0 +1,17 @@
+{
+  "name": "jquery",
+  "description": "1.0.0",
+  "main": "index.js",
+  "authors": [
+    "shifm"
+  ],
+  "license": "ISC",
+  "homepage": "index.asp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
