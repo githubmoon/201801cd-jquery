@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../assets/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"
+                    data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">微信公众号管家</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="">首页</a></li>
+            <li><a href="">关于</a></li>
+            <li><a href="">登录</a></li>
+        </ul>
+    </div>
+</nav>
+<!--轮播图-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img  src="image/home.png" alt="">
+            <div class="carousel-caption">
+                <h1>轮播1的标题</h1>
+                <p>这里是轮播图1的说明</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/produts.png" alt="">
+            <div class="carousel-caption">
+                <h1>轮播2的标题</h1>
+                <p>这里是轮播图2的说明</p>
+            </div>
+        </div>
+        <div class="item">
+            <img  src="image/about.png" alt="">
+            <div class="carousel-caption">
+                <h1>轮播3的标题</h1>
+                <p>这里是轮播图3的说明</p>
+            </div>
+        </div>
+    </div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!--案例-->
+<div class="case container">
+    <div class="row">
+        <div class="col-md-4">
+            <img style="width: 100%;height: 100%;" class="img-circle"   src="image/home.png" alt="">
+            <h2>案例1</h2>
+            <p>非常不错的产品，我很喜欢</p>
+        </div>
+        <div class="col-md-4">
+            <img style="width: 100%;height: 100%;" class="img-circle"  src="image/produts.png" alt="">
+            <h2>案例2</h2>
+            <p>非常不错的产品，我很喜欢</p>
+        </div>
+        <div class="col-md-4">
+            <img style="width: 100%;height: 100%;" class="img-circle"  src="image/about.png" alt="">
+            <h2>案例3</h2>
+            <p>非常不错的产品，我很喜欢</p>
+        </div>
+    </div>
+</div>
+<!--产品功能截图-->
+<div class="container screenshot">
+    <div class="row item">
+        <div class="col-md-5"><img style="width: 100%;height: 100%;" src="image/newSphoto.png" alt=""></div>
+        <div class="col-md-7">
+            <h2>截图1</h2>
+            <p>截图说明1，截图说明1，截图说明1，截图说明1，截图说明1，</p>
+        </div>
+    </div>
+    <div class="row item">
+        <div class="col-md-7">
+            <h2>截图2</h2>
+            <p>截图说明2，截图说明2，截图说明2，截图说明2，截图说明2，</p>
+        </div>
+        <div class="col-md-5"><img style="width: 100%;height: 100%;" src="image/newSphoto.png" alt=""></div>
+    </div>
+    <div class="row item">
+        <div class="col-md-5"><img style="width: 100%;height: 100%;" src="image/newSphoto.png" alt=""></div>
+        <div class="col-md-7">
+            <h2>截图3</h2>
+            <p>截图说明3，截图说明3，截图说明3，截图说明3，截图说明3，</p>
+        </div>
+    </div>
+</div>
+<!--底部-->
+<div class="container">
+    <footer>
+        微信公众号管家版权所有 2016
+        <a href="">四光年科技</a>
+    </footer>
+</div>
+
+<h2>建议</h2>
+<form action="" class="form-horizontal" role="form">
+    <div class="form-group">
+        <label for="">姓名</label>
+        <input class="form-control" id="truename" type="text" />
+    </div>
+    <div class="form-group">
+        <label>称呼</label>
+        <div class="radio">
+            <label>
+                <input type="radio" checked />先生
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" />女士
+            </label>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="job">你的职位</label>
+        <select class="form-control" name="" id="job">
+            <option value="">开发者</option>
+            <option value="">运营</option>
+            <option value="">管理人员</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="">你最喜欢”公众号管家“的哪个功能</label>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" checked>文章高级排版
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox">多公众号切换
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox">素材集中管理
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox">其他
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="">更多建议</label>
+        <textarea class="form-control"  rows="3" cols=""></textarea>
+    </div>
+    <p>请不要超过500个字</p>
+    <div class="form-group">
+        <button class="btn btn-primary">提交</button>
+    </div>
+</form>
+
+
+</body>
+</html>
